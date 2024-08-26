@@ -27,7 +27,7 @@ module D_FF_neg(
     
  always @(negedge clk)
  begin
-    q = d;
+    q <= d;
  end  
 
 endmodule
