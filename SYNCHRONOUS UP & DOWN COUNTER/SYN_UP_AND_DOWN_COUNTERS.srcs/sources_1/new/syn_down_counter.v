@@ -26,7 +26,7 @@ input reset_n,
 output [3:0] Q
     );
 wire q0_next, q1_next;
-
+// STRUCTURAL MODEL
 T_FF FF1 (
         .clk(clk),
         .reset_n(reset_n),
