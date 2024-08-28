@@ -40,7 +40,7 @@ end
 // next state logic
 always @(Q_reg)
 begin
-    Q_next = Q_reg + 1;
+    Q_next = Q_reg + 1;    // for down counter replace '+' with '-'
 end
 
 
