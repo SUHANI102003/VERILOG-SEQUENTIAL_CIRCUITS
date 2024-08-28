@@ -26,7 +26,8 @@ input reset_n,
 output [3:0] Q
     );
 wire q0_next, q1_next, q2_next, q3_next;
-
+// STRUCTURAL MODEL
+    
 assign q0_next = 1'b1; 
 T_FF FF1 (
         .clk(clk),
