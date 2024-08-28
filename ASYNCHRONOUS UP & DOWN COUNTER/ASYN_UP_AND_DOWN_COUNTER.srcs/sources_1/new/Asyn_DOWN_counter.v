@@ -25,7 +25,7 @@ input clk,
 input reset_n,
 output [3:0] Q
     );
-    
+// STRUCTURAL MODELLING    
 T_FF FF1 (
         .clk(clk),
         .reset_n(reset_n),
