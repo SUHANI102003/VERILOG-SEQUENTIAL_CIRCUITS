@@ -62,7 +62,9 @@
 <br />
 
 ### What is a Sequential Circuit?
-<p>Combinational circuits are digital circuits where the output is solely determined by the current inputs, with no memory elements involved. These circuits do not store any past information, and their output is a function of only the present input values. Examples include adders, multiplexers, and logic gates.</p>
+<p>A sequential circuit is a type of electronic circuit where the output depends not only on the current inputs but also on the history of inputs. This is in contrast to combinational circuits, where the output is determined solely by the present input values.</p>
+
+<p>Sequential circuits use memory elements, such as flip-flops or latches, to store information about past inputs. This means that the behavior of sequential circuits can be described by state diagrams or state tables, which show how the circuit transitions from one state to another based on input signals and current states.</p>
 
 
 ### Repository Structure
